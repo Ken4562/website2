@@ -12,8 +12,7 @@ def submit_form():
     email = request.form['email']
     subject = request.form['subject']
     message = request.form['message']
-    # 處理表單數據，例如保存到數據庫或發送郵件
-    return '表單提交成功！'
+    return 'succeed'
 
 if __name__ == '__main__':
     app.run(debug=True)
